@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">exchangeRates</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <array name="currencies">
+        <item>EUR</item>
+        <item>RON</item>
+        <item>USD</item>
+        <item>CHF</item>
+    </array>
+</resources>

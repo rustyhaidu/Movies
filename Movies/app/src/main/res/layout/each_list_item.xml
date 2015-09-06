@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/thumbnail"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/title"
+        android:text="TITLE MOVIE"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/thumbnail" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rating"
+        android:text="RATING"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:layout_below="@+id/title"
+        android:layout_alignBottom="@+id/thumbnail" />
+
+</RelativeLayout>
